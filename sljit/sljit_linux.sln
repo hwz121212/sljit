@@ -10,8 +10,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{AA9539C9-0D41-4A97-BE38-F6F14C7DA05D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "regexJIT", "demo\regexJIT\regexJIT_linux.vcxproj", "{07319FEE-3F66-4F30-9E28-7CA992BA01F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sljitTest", "demo\sljitTest\sljitTest_linux.vcxproj", "{7B6F9290-DDC3-49FF-B7EE-F1FB6A46D33F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {791642ED-9E59-4F42-927B-3562F869D9C1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
