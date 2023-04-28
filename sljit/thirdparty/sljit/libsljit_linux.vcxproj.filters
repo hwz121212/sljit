@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9617ac22-64d6-4cad-865c-edadd238420e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{41a37a2e-2c57-4a3b-a336-9126a30b90ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\unused">
+      <UniqueIdentifier>{4f8358c1-ded2-4aaf-bdfc-16326f93b0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\unused\allocator_src">
+      <UniqueIdentifier>{e807bcce-922d-4e0a-b435-efc772c3424a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\sljitConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sljitConfigInternal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sljitLir.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\sljitLir.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeARM_32.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeARM_64.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeARM_T2_32.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeMIPS_32.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeMIPS_64.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeMIPS_common.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativePPC_32.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativePPC_64.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativePPC_common.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeRISCV_32.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeRISCV_64.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeRISCV_common.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeS390X.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeX86_32.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeX86_64.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitNativeX86_common.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sljitUtils.c">
+      <Filter>src\unused</Filter>
+    </ClCompile>
+    <ClCompile Include="src\allocator_src\sljitExecAllocatorApple.c">
+      <Filter>src\unused\allocator_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\allocator_src\sljitExecAllocatorCore.c">
+      <Filter>src\unused\allocator_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\allocator_src\sljitExecAllocatorFreeBSD.c">
+      <Filter>src\unused\allocator_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\allocator_src\sljitExecAllocatorPosix.c">
+      <Filter>src\unused\allocator_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\allocator_src\sljitExecAllocatorWindows.c">
+      <Filter>src\unused\allocator_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\allocator_src\sljitProtExecAllocatorNetBSD.c">
+      <Filter>src\unused\allocator_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\allocator_src\sljitProtExecAllocatorPosix.c">
+      <Filter>src\unused\allocator_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\allocator_src\sljitWXExecAllocatorPosix.c">
+      <Filter>src\unused\allocator_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\allocator_src\sljitWXExecAllocatorWindows.c">
+      <Filter>src\unused\allocator_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
